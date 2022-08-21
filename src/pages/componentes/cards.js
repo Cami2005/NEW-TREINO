@@ -24,7 +24,8 @@ export default function Card(props){
     return(
         <section>
             <div className={LerTema}>
-                <img src={props.avatar} alt="avatar"/>
+                <img src={props.avatar} alt="avatar
+                "/>
                 Meu nome é {props.nome}
                 <button onClick={Idade}>Minha Idade</button>
             </div>
